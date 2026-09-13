@@ -25,14 +25,15 @@
           <h1>Privacy Policy</h1>
           <p>
             This Privacy Policy explains how Fisher Blast: Ocean Merge handles information when you use the game,
-            leaderboard features, ads, support channels, and related services.
+            profile and leaderboard features, advertising, privacy-choice tools, support channels, and related services.
           </p>
         </header>
 
         <div class="meta-row">
           <span class="meta-chip">App: Fisher Blast: Ocean Merge</span>
+          <span class="meta-chip">Package: com.tavook.fisherblast</span>
           <span class="meta-chip">Developer: Tavook</span>
-          <span class="meta-chip">Last Updated: September 7, 2026</span>
+          <span class="meta-chip">Last Updated: September 13, 2026</span>
         </div>
 
         <div class="notice-box">
@@ -43,110 +44,141 @@
 
         <h2>1. Scope</h2>
         <p>
-          This Privacy Policy applies to the Fisher Blast: Ocean Merge mobile game, including app-related support,
-          leaderboard functionality, and associated web pages used for legal and support information.
+          This Privacy Policy applies to the Fisher Blast: Ocean Merge mobile game, its cloud-connected profile and
+          leaderboard features, advertising and consent features, support communications, and associated legal/support web pages.
         </p>
 
         <h2>2. Information We May Process</h2>
-        <p>Depending on how you use the game, we may process the following categories of information:</p>
+        <p>Depending on how you use the game and which services are available to you, information may include:</p>
         <ul>
-          <li><strong>Gameplay and app progress data</strong>, such as scores, high scores, basic progress, or related game-state information.</li>
-          <li><strong>Leaderboard-related data</strong>, such as your leaderboard score, ranking information, and an in-game display name used to show leaderboard entries.</li>
-          <li><strong>Authentication or account-related identifiers</strong>, such as app-related identifiers created through Firebase Authentication or identifiers associated with supported sign-in and game service features.</li>
-          <li><strong>Google Play Games-related information</strong>, if you use Google Play Games functionality. For example, your Google Play Games player name may be used as your public display name on the leaderboard where applicable.</li>
-          <li><strong>Device, diagnostics, and technical information</strong>, such as device type, operating system information, language settings, app version, crash diagnostics, and performance-related logs.</li>
-          <li><strong>Advertising and consent-related information</strong>, including advertising identifiers and consent signals, when ads or ad-consent systems are used.</li>
-          <li><strong>Support communications</strong>, if you contact us by email, including the information you include in your message.</li>
+          <li><strong>App identity information</strong>, such as a Firebase Authentication user identifier used to associate game data with the correct player profile. The game may use an anonymous Firebase identity and may link or reconcile supported Google Play Games authentication where available.</li>
+          <li><strong>Player profile information</strong>, such as a generated player name, a supported game-service-derived display name, a custom player name you choose, your selected avatar, and profile state used by Fisher Blast.</li>
+          <li><strong>Custom-name records</strong>, such as the custom name itself, name-change usage information, and a name-registry record used to help keep custom player names unique.</li>
+          <li><strong>Gameplay and leaderboard information</strong>, such as high score, score revision or synchronization metadata, ranking-related data, and other records needed to operate the Fisher Blast leaderboard.</li>
+          <li><strong>Reward and synchronization metadata</strong>, such as limited timestamps or state used to validate cloud-connected features including daily rewards.</li>
+          <li><strong>Google Play Games information</strong>, when you use Google Play Games functionality, such as supported game-service account identifiers or profile information made available to the game for authentication and game features.</li>
+          <li><strong>Advertising and consent information</strong>, such as device or advertising identifiers, ad requests, ad impressions/interactions, fraud-prevention signals, and consent or privacy-choice signals processed by Google advertising services where applicable.</li>
+          <li><strong>Technical information</strong> processed by the app or integrated service SDKs, such as app version, device or operating-system characteristics, language/region settings, and service diagnostics needed for functionality, security, troubleshooting, or abuse prevention.</li>
+          <li><strong>Support communications</strong>, if you contact us, including your email address and any information, screenshots, or device details you choose to provide.</li>
         </ul>
 
         <h2>3. How We Use Information</h2>
-        <p>We may use information for purposes such as:</p>
+        <p>Information may be used to:</p>
         <ul>
-          <li>operating, maintaining, and improving the game;</li>
-          <li>enabling gameplay features, cloud-connected services, and leaderboards;</li>
-          <li>displaying leaderboard names, scores, and rankings to other players where leaderboard features are used;</li>
-          <li>authenticating users and protecting the integrity of app features;</li>
-          <li>serving ads, limiting fraud, and measuring ad performance where advertising is included;</li>
-          <li>debugging technical issues and monitoring reliability, stability, and abuse;</li>
-          <li>responding to support, privacy, or deletion requests; and</li>
-          <li>meeting legal, security, platform, or compliance obligations.</li>
+          <li>operate, maintain, secure, and improve the game;</li>
+          <li>authenticate or distinguish player profiles and keep account-scoped game data associated with the correct user;</li>
+          <li>provide profile customization, custom-name uniqueness checks, score synchronization, leaderboards, daily rewards, and other cloud-connected features;</li>
+          <li>display public leaderboard information such as player name, avatar, score, and ranking;</li>
+          <li>serve rewarded or other ads, measure ad delivery, prevent advertising fraud, and honor applicable privacy choices;</li>
+          <li>diagnose technical problems, prevent abuse or cheating, and protect service integrity;</li>
+          <li>respond to support, privacy, and deletion requests; and</li>
+          <li>meet legal, security, platform, and compliance obligations.</li>
         </ul>
 
-        <h2>4. Third-Party Services</h2>
-        <p>Fisher Blast may use third-party services that process information according to their own terms and privacy practices. These services may include:</p>
+        <h2>4. Firebase Services</h2>
+        <p>
+          Fisher Blast uses Firebase services for app functionality. <strong>Firebase Authentication</strong> may be used to create or maintain
+          an app-specific identity, including an anonymous identity where appropriate. <strong>Cloud Firestore</strong> may store app-managed
+          profile and gameplay records such as player names, avatar selection, leaderboard/high-score information, profile state, and related synchronization metadata.
+        </p>
+        <p>
+          Firebase services are provided by Google and may process technical or service information according to Google's applicable terms and privacy practices.
+        </p>
+
+        <h2>5. Google Play Games Services</h2>
+        <p>
+          Where available, Fisher Blast may use Google Play Games Services for game-service authentication and related features. Information made
+          available by Google Play Games may be used to reconcile your game identity and support player-facing game features.
+        </p>
+        <p>
+          Fisher Blast does not operate a separate email/password registration system. A player profile may instead be associated with an app-specific
+          Firebase identity and, where used, supported Google Play Games authentication.
+        </p>
+
+        <h2>6. Public Profile and Leaderboard Information</h2>
+        <p>
+          Leaderboard and profile features are designed to show certain information to other players. Depending on your account state and game version,
+          public information may include a generated name, a game-service-derived display name, or a custom player name you choose, together with your selected avatar,
+          score, and ranking information.
+        </p>
+        <p>
+          Do not choose a custom player name that contains personal information you do not want other players to see. Custom player names may be filtered,
+          rejected, restricted, or moderated to protect users and service integrity.
+        </p>
+
+        <h2>7. Advertising and Privacy Choices</h2>
+        <p>
+          Fisher Blast uses <strong>Google Mobile Ads (AdMob)</strong> for advertising, including rewarded advertising. Google and its advertising partners may process
+          device/app information, advertising identifiers or similar identifiers where available, ad delivery and interaction information, fraud-prevention signals,
+          and related data for advertising purposes in accordance with their own policies and applicable consent requirements.
+        </p>
+        <p>
+          Fisher Blast uses Google's <strong>User Messaging Platform (UMP)</strong> for advertising-related consent and privacy choices where required. In regions where
+          a privacy-options entry point is required, the game may provide a <strong>Privacy Choices</strong> option in Settings so that available choices can be revisited.
+          The exact options presented may depend on your region, prior choices, and Google's messaging configuration.
+        </p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>Services used by Fisher Blast may include:</p>
         <ul>
-          <li><strong>Google Play Games Services</strong> for game services and related profile/leaderboard functionality;</li>
-          <li><strong>Firebase</strong>, such as Firebase Authentication and Firestore, for app functionality, identity handling, and leaderboard-related storage;</li>
+          <li><strong>Google Play Games Services</strong> for supported game-service authentication and features;</li>
+          <li><strong>Firebase Authentication</strong> for app identity;</li>
+          <li><strong>Cloud Firestore</strong> for app-managed profile, leaderboard, and synchronization records;</li>
           <li><strong>Google Mobile Ads / AdMob</strong> for advertising; and</li>
-          <li><strong>User Messaging Platform (UMP)</strong> or similar consent tools for ad-related privacy choices where required.</li>
+          <li><strong>Google User Messaging Platform (UMP)</strong> for advertising-related consent and privacy choices where applicable.</li>
         </ul>
         <p>
-          These third-party services may independently process information on their own behalf or as service providers,
-          depending on the feature and the applicable service.
+          These services may process information under their own terms and privacy practices. Their processing may vary by device, region, consent status,
+          service configuration, and the features you use.
         </p>
 
-        <h2>5. Public Leaderboard Information</h2>
+        <h2>9. Data Sharing and Disclosure</h2>
         <p>
-          If you use leaderboard features, certain information may be visible to other players. This can include your score,
-          ranking position, and a public display name. Where supported and enabled by the game flow, your Google Play Games
-          player name may be used as the display name shown on the leaderboard.
+          Tavook does not sell personal information. Information may be made available to service providers or platform providers when necessary to operate the game,
+          deliver requested features, provide advertising, maintain security, prevent abuse, comply with legal obligations, or protect users, Tavook, or the public.
+          Public leaderboard information is shared with other players by design as described above.
         </p>
 
-        <h2>6. Advertising and Privacy Choices</h2>
+        <h2>10. Data Retention</h2>
         <p>
-          If the game displays ads, advertising partners may process device and app-related data, including advertising identifiers,
-          ad interaction data, and consent-related information, to deliver ads, limit fraud, and measure performance.
-        </p>
-        <p>
-          In some regions, users may be shown ad-related privacy or consent messaging, and may also be provided with a way to revisit
-          available ad-privacy choices where required by the applicable advertising framework or platform rules.
+          App-managed information is retained for as long as reasonably necessary to operate the relevant feature, maintain leaderboard/profile integrity,
+          process support or deletion requests, prevent fraud or abuse, comply with legal or platform obligations, or resolve disputes. Retention periods may differ
+          by data type and service. Third-party providers may apply their own retention practices.
         </p>
 
-        <h2>7. Data Sharing and Disclosure</h2>
+        <h2>11. Data Deletion and Your Choices</h2>
         <p>
-          We do not sell personal information. We may disclose or make information available to service providers, platform services,
-          advertising partners, or legal authorities where necessary to operate the game, provide requested features, prevent abuse,
-          comply with legal requirements, or protect our rights, users, or the public.
+          You may request deletion of app-related data managed by Tavook. Depending on what can be reasonably linked to your request, this may include Fisher Blast
+          profile records, custom or generated player-name records, avatar selection, leaderboard/high-score records, name-registry records, app-managed identifiers,
+          and related cloud metadata. See the <a href="data-deletion.html">Data Deletion Request</a> page for instructions.
+        </p>
+        <p>
+          Data held directly by Google or another third-party provider, such as data controlled through your Google account or Google Play Games settings,
+          may need to be managed through that provider's controls. Advertising choices may also be available through the in-game Privacy Choices entry point where required.
         </p>
 
-        <h2>8. Data Retention</h2>
+        <h2>12. Security</h2>
         <p>
-          We retain information for as long as reasonably necessary for the purposes described in this Privacy Policy, including service
-          operation, support, recordkeeping, security, legal compliance, fraud prevention, and dispute handling. Retention periods may
-          vary depending on the type of data and the service involved.
+          We use reasonable technical and organizational measures intended to protect app-managed information, including authenticated access controls and
+          service-side rules for cloud data. However, no method of electronic transmission, storage, or processing can be guaranteed to be completely secure.
         </p>
 
-        <h2>9. Security</h2>
+        <h2>13. Children's Privacy</h2>
         <p>
-          We take reasonable technical and organizational measures designed to protect information. However, no method of transmission,
-          storage, or processing is completely secure, and we cannot guarantee absolute security.
+          Fisher Blast is not intended to knowingly collect personal information from children in violation of applicable law. If you believe information from a child
+          has been provided or processed improperly, contact us so that we can review the matter and take appropriate action.
         </p>
 
-        <h2>10. Children’s Privacy</h2>
+        <h2>14. Changes to This Policy</h2>
         <p>
-          Fisher Blast is not intended to knowingly collect personal information from children in violation of applicable law. If you believe
-          that information from a child has been improperly provided to us, please contact us so we can review the matter.
+          We may update this Privacy Policy as the game, its features, or legal requirements change. The current version will be posted on this page and the
+          "Last Updated" date will be revised when appropriate.
         </p>
 
-        <h2>11. Your Choices and Requests</h2>
-        <p>
-          You may contact us regarding privacy questions or to request deletion of app-related data managed by Tavook. More information is available on the
-          <a href="data-deletion.html">Data Deletion Request</a> page.
-        </p>
-        <p>
-          Please note that some information may be controlled by third-party providers such as Google Play Games or other Google services.
-          Requests involving data held directly by those services may need to be handled through your Google account or the relevant service settings.
-        </p>
-
-        <h2>12. Changes to This Policy</h2>
-        <p>
-          We may update this Privacy Policy from time to time. When we do, we will post the updated version on this page and update the "Last Updated" date above.
-        </p>
-
-        <h2>13. Contact</h2>
+        <h2>15. Contact</h2>
         <div class="contact-box">
           <p>
-            If you have questions about this Privacy Policy or Fisher Blast privacy practices, please contact:
+            For privacy questions or requests, contact:
             <a href="mailto:burakakdemir.dev@gmail.com?subject=Fisher%20Blast%20Privacy%20Question">burakakdemir.dev@gmail.com</a>
           </p>
         </div>
