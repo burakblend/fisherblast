@@ -1,0 +1,5 @@
+All 221 local references validated. All pages have one H1 and unique IDs.
+Four legal/support page bodies match the supplied ZIP after whitespace normalization, excluding replaced navigation and main title. app-ads.txt is byte-identical.
+Relative paths support project subdirectories and domain-root hosting. No Blogger tags, embedded image blobs or external CSS/JS dependencies.
+Live deployment and browser visual checks not performed.
+JavaScript syntax checks passed. JSDOM checks passed for domain-root and /fisherblast/ home navigation, About navigation, gallery arrows and mobile menu. Browser layout is not simulated by these tests.
